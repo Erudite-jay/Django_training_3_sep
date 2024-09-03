@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: rgba(238, 17, 17, 0.959);
+    margin-top: 50px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 50px;
+}
