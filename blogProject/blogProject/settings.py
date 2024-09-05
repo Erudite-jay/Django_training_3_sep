@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'Auth_app',
+    'Form_app',
 
     
     'django.contrib.admin',
