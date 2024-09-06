@@ -35,6 +35,7 @@ INSTALLED_APPS = [
 
     'Auth_app',
     'Form_app',
+    'Session_app',
 
     
     'django.contrib.admin',
