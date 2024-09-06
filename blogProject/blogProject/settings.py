@@ -32,10 +32,12 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'rest_framework',
+    'rest_framework_simplejwt',
 
     'Auth_app',
     'Form_app',
     'Session_app',
+    'JWT_app',
 
     
     'django.contrib.admin',
