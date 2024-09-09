@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'Form_app',
     'Session_app',
     'JWT_app',
+    'Signal_app',
 
     
     'django.contrib.admin',
