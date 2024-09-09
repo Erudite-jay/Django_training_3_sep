@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
+    'channels',
 
     'Auth_app',
     'Form_app',
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
 ]
 
 MIDDLEWARE = [
@@ -77,7 +79,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blogProject.wsgi.application'
+# WSGI_APPLICATION = 'blogProject.wsgi.application'
+ASGI_APPLICATION = 'blogProject.asgi.application'
 
 
 # Database
